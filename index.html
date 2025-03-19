@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    
     <title>Age Validator App</title>
 </head>
-
 <body>
     <div class="sub-container-1 sucess">
         <i class="fa-solid fa-circle-check"></i>
@@ -21,15 +19,14 @@
     <div class="container">
         <h2>Age Validator App</h2>
         <p>Check Your Validation</p>
-        <input type="number" id="inputType" placeholder="age here...">
+        <input type="number"  min="0" max="100" id="inputType" placeholder="here...">
         <div class="btn-container">
-            <button type="submit" id="btn">Check</button>
-            <button type="reset" id="btnReset">Reset</button>
-        </div>
+         <button type="submit" id="btn">Check</button> 
+        <button type="reset" id="btnReset">Reset</button>
+    </div>
     </div>
 
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/732f9608e7.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
