@@ -1,5 +1,3 @@
-# vaildtor-app-js
-
 # 🧮 Age Validator App
 
 A simple **JavaScript Age Validator App** that checks whether the entered age is valid or not.
